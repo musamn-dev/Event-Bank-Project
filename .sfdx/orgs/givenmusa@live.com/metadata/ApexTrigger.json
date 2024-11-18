@@ -1,0 +1,46 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0058d000003VqgbAAC",
+      "createdByName": "Musa Nkuna",
+      "createdDate": "2023-11-09T14:40:53.000Z",
+      "fileName": "triggers/dlrs__RollupSummariesTrigger.trigger",
+      "fullName": "dlrs__RollupSummariesTrigger",
+      "id": "01q8d000000iF9tAAE",
+      "lastModifiedById": "0058d000003VqgbAAC",
+      "lastModifiedByName": "Musa Nkuna",
+      "lastModifiedDate": "2023-11-09T14:40:53.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "dlrs",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0058d000003VqgbAAC",
+      "createdByName": "Musa Nkuna",
+      "createdDate": "2023-05-25T06:46:36.000Z",
+      "fileName": "triggers/trailheadapp__TrailmixAssignmentTrigger.trigger",
+      "fullName": "trailheadapp__TrailmixAssignmentTrigger",
+      "id": "01q8d000000EWWRAA4",
+      "lastModifiedById": "0058d000003VqgbAAC",
+      "lastModifiedByName": "Musa Nkuna",
+      "lastModifiedDate": "2023-05-25T06:46:36.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "trailheadapp",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0058d000003VqgbAAC",
+      "createdByName": "Musa Nkuna",
+      "createdDate": "2024-11-16T12:38:57.000Z",
+      "fileName": "triggers/UserEventTrigger.trigger",
+      "fullName": "UserEventTrigger",
+      "id": "01qJ7000000oOEQIA2",
+      "lastModifiedById": "0058d000003VqgbAAC",
+      "lastModifiedByName": "Musa Nkuna",
+      "lastModifiedDate": "2024-11-17T10:03:56.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

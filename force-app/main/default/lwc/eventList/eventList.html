@@ -1,0 +1,18 @@
+<!--
+  @description       : 
+  @author            : Musa Nkuna | 216066715
+  @group             : ISJ
+-->
+<template>
+    <lightning-card title="Events">
+        <div class="slds-p-around_medium">
+            <lightning-datatable
+                hide-checkbox-column
+                key-field="Id"
+                data={events}
+                columns={columns}
+                onrowaction={handleRowAction}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

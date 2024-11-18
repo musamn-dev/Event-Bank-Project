@@ -1,0 +1,33 @@
+<!--
+  @description       : 
+  @author            : musa.nkuna@absa.africa
+  @group             : 
+  @last modified on  : 11-14-2024
+  @last modified by  : musa.nkuna@absa.africa
+-->
+<template>
+    <lightning-card title="User Search">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Username/Email" value={searchKey} onchange={handleInputChange}></lightning-input>
+            <lightning-button label="Search" onclick={handleSearch}></lightning-button>
+        </div>
+        <template if:true={userFound}>
+            <div class="slds-m-around_medium">
+                <p>User: {user.Name} ({user.Email})</p>
+                <lightning-button label="Add User" onclick={handleAddUser}></lightning-button>
+            </div>
+        </template>
+        <template if:true={showTryAgain}>
+            <div class="slds-m-around_medium">
+                <p>User Not Found. Search Again!</p>
+            </div>
+        </template>
+        <template if:true={showConfirmation}>
+            <div class="slds-m-around_medium">
+                <p>Are you sure you want to add {user.Name}?</p>
+                <lightning-button label="Yes" onclick={confirmAddUser}></lightning-button>
+                <lightning-button label="No" onclick={cancelAddUser}></lightning-button>
+            </div>
+        </template>
+    </lightning-card>
+</template>

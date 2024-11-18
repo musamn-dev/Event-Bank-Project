@@ -1,0 +1,17 @@
+.slds-theme_default {
+    background-color: #2a2a2a; /* Dark background */
+    color: #ffffff; /* Light text */
+}
+
+.slds-theme_inverse {
+    background-color: #1a1a1a; /* Darker background */
+    color: #ffffff; /* Light text */
+}
+
+.slds-m-around_medium {
+    margin: 1rem;
+}
+
+.slds-m-bottom_medium {
+    margin-bottom: 1rem;
+}

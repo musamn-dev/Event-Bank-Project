@@ -1,0 +1,10 @@
+<!-- This component is for depositing money into the event account -->
+
+<template>
+    <lightning-card title="Deposit Money">
+        <p>Account Balance: {balance}</p>
+        <lightning-input label="Description" value={description} onchange={handleDescriptionChange}></lightning-input>
+        <lightning-input label="Amount" type="number" value={amount} onchange={handleAmountChange}></lightning-input>
+        <lightning-button label="Deposit" onclick={handleDeposit}></lightning-button>
+    </lightning-card>
+</template>

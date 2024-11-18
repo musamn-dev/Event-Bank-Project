@@ -1,0 +1,14 @@
+<!--
+
+-->
+<template>
+    <div class="slds-box slds-theme_error">
+        <template if:true={errorMessages}>
+            <ul>
+                <template for:each={errorMessages} for:item="error">
+                    <li key={error}>{error}</li>
+                </template>
+            </ul>
+        </template>
+    </div>
+</template>

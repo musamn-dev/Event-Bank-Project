@@ -1,0 +1,28 @@
+.custom-new-button {
+    color: orange;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.custom-new-button:hover {
+    color: darkorange;
+}
+
+.custom-datatable {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+.slds-card__header {
+    background-color: black;
+    color: white;
+}
+
+.slds-card__body {
+    background-color: white;
+}

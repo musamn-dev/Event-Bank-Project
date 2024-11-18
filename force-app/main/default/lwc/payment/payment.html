@@ -1,0 +1,9 @@
+<!-- Make payment from this component -->
+<template>
+    <lightning-card title="Make a Payment">
+        <p>Account Balance: {balance}</p>
+        <lightning-input label="Description" value={description} onchange={handleDescriptionChange}></lightning-input>
+        <lightning-input label="Amount" type="number" value={amount} onchange={handleAmountChange}></lightning-input>
+        <lightning-button label="Pay" onclick={handlePayment}></lightning-button>
+    </lightning-card>
+</template>

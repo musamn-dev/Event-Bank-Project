@@ -1,0 +1,20 @@
+<!--
+  @description       : 
+  @author            : musa.nkuna@absa.africa
+  @group             : 
+  @last modified on  : 11-10-2024
+  @last modified by  : musa.nkuna@absa.africa
+-->
+<template>
+    <lightning-card title="Signup Form">
+        <div class="slds-p-around_medium">
+            <lightning-input label="First Name" value={firstName} onchange={handleInputChange} data-id="firstName"></lightning-input>
+            <lightning-input label="Last Name" value={lastName} onchange={handleInputChange} data-id="lastName"></lightning-input>
+            <lightning-input label="Nickname" value={nickname} onchange={handleInputChange} data-id="nickname"></lightning-input>
+            <lightning-input label="Email" type="email" value={email} onchange={handleInputChange} data-id="email"></lightning-input>
+            <lightning-input label="Password" type="password" value={password} onchange={handleInputChange} data-id="password"></lightning-input>
+            <lightning-input label="Confirm Password" type="password" value={confirmPassword} onchange={handleInputChange} data-id="confirmPassword"></lightning-input>
+            <lightning-button label="Signup" onclick={handleSignup}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
